@@ -18,3 +18,6 @@
 
 # VIM .swp files
 *.swp
+
+# Ignore Spring files.
+/spring/*.pid
