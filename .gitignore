@@ -19,5 +19,10 @@
 # VIM .swp files
 *.swp
 
+# Ignore all files ending with ~
+# E.g. rake creates a .rake_tasks~ file
+*~
+
 # Ignore Spring files.
 /spring/*.pid
+
