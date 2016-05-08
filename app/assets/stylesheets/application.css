@@ -13,3 +13,12 @@
  *= require_tree .
  *= require_self
  */
+
+
+
+/* Override print showing links */
+@media print {
+  a[href]:after {
+    content: none
+  }
+}
