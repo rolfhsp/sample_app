@@ -9,4 +9,10 @@ class ActiveSupport::TestCase
   fixtures :all
 
   # Add more helper methods to be used by all tests here...
+
+  # Returns true if a test user is logged in
+  # Ref logged_in? method in sessions_helper.rb, which apparently is not accessible in tests.
+  def is_logged_in?
+    !session[:user_id].nil?
+  end
 end
